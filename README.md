@@ -1,46 +1,105 @@
-# Getting Started with Create React App
+<p align="center">
+  <img src="src/assets/contributions-page.png" width="30%" height="30%" max-width:100% >
+  <img src="src/assets/Github-Contributions.gif" width="30%" height="30%" max-width:100% >
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  Quadro de contribuições do Github
+</h1>
 
-## Available Scripts
+<h3 align="center">
+  Foi desenvolvido o front-end de uma réplica do quadro de contribuições do Github dado um arquivo JSON com os dados.
+</h3>
 
-In the project directory, you can run:
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/belapferreira/github-contributions">
 
-### `yarn start`
+  <img alt="GitHub license" src="https://img.shields.io/github/license/belapferreira/github-contributions">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <img alt="GitHub stars" src="https://img.shields.io/github/stars/belapferreira/github-contributions?style=social">
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<p align="center">
+  <a href="#funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#heavy_check_mark-configurações-necessárias">Configurações necessárias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#arrow_down_small-clonando-o-repositório">Clonando o repositório</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#beginner-iniciando-a-aplicação">Iniciando a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#mag-realizando-os-testes">Realizando os testes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#wrench-tecnologias--ferramentas--recursos">Tecnologias | Ferramentas | Recursos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">Licença</a>
+</p>
 
-### `yarn test`
+### Funcionalidades
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Réplica do quadro de contrinuições do Github;
+- Seleção de anos conforme dados do arquivo JSON;
+- Atualização da quantidade de contribuições conforme ano selecionado;
+- Atualização do retorno visual do quadro de contribuições conforme ano selecionado;
+- Link para página do Github que explica a contagem de contribuições.
 
-### `yarn build`
+### :heavy_check_mark: Configurações necessárias
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Seguem as configurações neessárias para visualizar a aplicação em sua máquina.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-  [Git](https://git-scm.com);
+-  [Node](https://nodejs.org/);
+-  [Yarn](https://yarnpkg.com/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### :arrow_down_small: Clonando o repositório
+1. Pelo terminal, acesse o diretório em que deseja ter o repositório clonado e execute o comando a seguir.
+```bash
+# clonando o repositório
+git clone https://github.com/belapferreira/github-contributions
+```
 
-### `yarn eject`
+### :beginner: Iniciando a aplicação
+1. Pelo terminal, acesse a pasta do repositório clonado e execute os comandos abaixo.
+```bash
+# instalando as dependências
+yarn install
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# iniciando a aplicação
+yarn start
+```
+### :mag: Realizando os testes
+1. Foi criado um teste simples para verificar a renderização do HTML da aplicação. Para ativar os testes execute o comando abaixo estando na pasta do projeto;
+```bash
+# ativando testes
+yarn test
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Para gerar o Coverage Report execute o comando abaixo no terminal e será criada uma pasta chamada `coverage` na raiz do projeto. Dentro dessa pasta haverá outra chamada `Icov-report` que conterá um arquivo `index.html`. Ao abrir `index.html` será possível visualizar o relatório de cobertura dos testes da página da aplicação.
+```bash
+# gerando Coverage Report
+yarn test --coverage --watchAll false
+```
+<p align="center">
+  <img src="src/assets/coverage-report.png" width="80%" height="80%" max-width:100% >
+</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### :wrench: Tecnologias | Ferramentas | Recursos
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Esse projeto foi desenvolvido utilizando os seguintes recursos:
 
-## Learn More
+-  [Date FNS](https://github.com/date-fns/date-fns);
+-  [Editor Config](https://editorconfig.org/);
+-  [Eslint](https://eslint.org/);
+-  [Jest](https://jestjs.io/);
+-  [Prettier](https://prettier.io/);
+-  [React](https://pt-br.reactjs.org/);
+-  [React Calendar Heatmap](https://github.com/kevinsqi/react-calendar-heatmap);
+-  [React DOM](https://pt-br.reactjs.org/docs/react-dom.html);
+-  [React Icons](https://react-icons.github.io/react-icons/);
+-  [React Router Dom](https://reactrouter.com/web/guides/quick-start);
+-  [React Scripts](https://github.com/facebook/create-react-app/tree/master/packages/react-scripts);
+-  [React Test Renderer](https://github.com/facebook/react/tree/master/packages/react-test-renderer);
+-  [Styled Components](https://styled-components.com/);
+-  [TypeScript](https://www.typescriptlang.org/).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### :memo: License
+Esse projeto está sob MIT license. Veja [LICENSE](https://github.com/belapferreira/github-contributions/blob/master/LICENSE) para mais informações.
+
+---
+
+Feito por Bela Ferreira :blue_heart: Contato: https://www.linkedin.com/in/belapferreira :blush:
