@@ -36,7 +36,6 @@
 - Atualização da quantidade de contribuições conforme ano selecionado;
 - Atualização do retorno visual do quadro de contribuições conforme ano selecionado;
 - Link para página do Github que explica a contagem de contribuições.
-
 ### :heavy_check_mark: Configurações necessárias
 
 Seguem as configurações neessárias para visualizar a aplicação em sua máquina.
