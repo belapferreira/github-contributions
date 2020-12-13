@@ -61,7 +61,7 @@ yarn install
 yarn start
 ```
 ### :mag: Realizando os testes
-1. Foi criado um teste simples para verificar a renderização do HTML da aplicação. Para ativar os testes execute o comando abaixo estando na pasta do projeto;
+1. Foram criados testes para verificar a renderização do HTML da aplicação e também para o elemento que permite a seleção do ano para qual haverá o retorno visual em tela. Para ativar os testes execute o comando abaixo estando na pasta do projeto;
 ```bash
 # ativando testes
 yarn test
