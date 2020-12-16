@@ -1,11 +1,13 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
-import Contributions from '../pages/Contributions';
+import ContributionsMain from '../pages/ContributionsMain';
+import ContributionsSecond from '../pages/ContributionsSecond';
 
 const Routes: React.FC = () => (
   <Switch>
-    <Route path="/" exact component={Contributions} />
+    <Route path="/" exact component={ContributionsMain} />
+    <Route path="/contributions-second" component={ContributionsSecond} />
   </Switch>
 );
 

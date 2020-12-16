@@ -11,7 +11,9 @@ import {
 
 import database from '../../services/db.json';
 
-const Contributions: React.FC = () => {
+import Calendar from '../../components/Calendar';
+
+const ContributionsSecond: React.FC = () => {
   const [selectedYear, setSelectedYear] = useState('2017');
 
   // Returns a array with all dates from JSON file
@@ -128,4 +130,4 @@ const Contributions: React.FC = () => {
   );
 };
 
-export default Contributions;
+export default ContributionsSecond;

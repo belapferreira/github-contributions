@@ -6,7 +6,7 @@ const Header: React.FC = () => {
   return (
     <Container>
       <GithubLogo />
-      <h1>Contributions</h1>
+      <h1>Contribuições</h1>
     </Container>
   );
 };

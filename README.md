@@ -8,7 +8,7 @@
 </h1>
 
 <h3 align="center">
-  Foi desenvolvido o front-end de uma réplica do quadro de contribuições do Github dado um arquivo JSON com os dados.
+  O objetivo foi o desenvolvimento do front-end de uma réplica do quadro de contribuições do Github sem utilização de bibliotecas e os dados a serem consumidos são de um arquivo JSON fornecido.
 </h3>
 
 <p align="center">
@@ -16,7 +16,7 @@
 
   <img alt="GitHub license" src="https://img.shields.io/github/license/belapferreira/github-contributions">
 
-  <img alt="GitHub stars" src="https://img.shields.io/github/stars/belapferreira/github-contributions?style=social">
+  <img alt="GitHub stars" src="https://img.shields.io/github/stars/belapferreira/gidthub-contributions?style=social">
 </p>
 
 <p align="center">
@@ -29,13 +29,14 @@
   <a href="#memo-license">Licença</a>
 </p>
 
-### Funcionalidades
+### Funcionalidades mapeadas
 
-- Réplica do quadro de contrinuições do Github;
-- Seleção de anos conforme dados do arquivo JSON;
-- Atualização da quantidade de contribuições conforme ano selecionado;
-- Atualização do retorno visual do quadro de contribuições conforme ano selecionado;
-- Link para página do Github que explica a contagem de contribuições.
+- Seleção de anos conforme dados do arquivo JSON; :heavy_check_mark:
+- Atualização da quantidade de contribuições conforme ano selecionado; :heavy_check_mark:
+- Atualização do retorno visual do quadro de contribuições conforme ano selecionado; :x:
+- Link para página do Github que explica a contagem de contribuições; :heavy_check_mark:
+- Réplica do quadro de contribuições do Github; :x:
+- Testes relacionados à página criada. :heavy_check_mark:
 ### :heavy_check_mark: Configurações necessárias
 
 Seguem as configurações neessárias para visualizar a aplicação em sua máquina.

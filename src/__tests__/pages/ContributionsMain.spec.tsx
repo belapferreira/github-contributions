@@ -1,17 +1,17 @@
 import React from 'react';
 import { render, fireEvent, waitFor } from '@testing-library/react';
 
-import Contributions from '../../pages/Contributions';
+import ContributionsMain from '../../pages/ContributionsMain';
 
 describe('Contributions Page', () => {
   it('should be able to render all html of the page', () => {
-    const { debug } = render(<Contributions />);
+    const { debug } = render(<ContributionsMain />);
 
     debug();
   });
 
   it('should be able to switch year on change', async () => {
-    const { getByTestId } = render(<Contributions />);
+    const { getByTestId } = render(<ContributionsMain />);
 
     const select = getByTestId('select');
 
